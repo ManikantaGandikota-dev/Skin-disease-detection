@@ -1,0 +1,244 @@
+/* Page background */
+
+body {
+  margin: 0;
+  padding-top: 60px; /* navbar height */
+}
+.home {
+  margin-top: -80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh; /* Full viewport height */
+  width: 100%;
+  /* Add padding-top here instead of body so content 
+     doesn't sit under the navbar, but the background stays */
+  padding-top: 80px; 
+  padding-bottom: 40px;
+}
+.home-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image doesn't stretch weirdly */
+  object-position: center;
+  z-index: -1;       /* Places it behind the home-card */
+  filter: brightness(0.6); /* Optional: darkens the image so the card pops more */
+}
+
+/* Main card */
+.home-card {
+  margin-top: 0px;
+  background: #e8cfcf;
+  max-width: 800px;
+  width: 100%;
+  padding: 40px 36px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Title */
+.home-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+/* Primary button */
+.primary-btn {
+  background: #000;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Divider */
+.divider {
+  margin: 36px 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Info section */
+.info {
+  text-align: left;
+}
+
+/* Info title */
+.info-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+/* Info text */
+.info-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* Bullet list */
+.info-list {
+  padding-left: 18px;
+  color: #444;
+}
+
+.info-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .home-card {
+    padding: 30px 24px;
+  }
+
+  .home-title {
+    font-size: 26px;
+  }
+}
+
+.tech-stack {
+    text-align: left;
+}
+
+/* Example outputs section */
+.examples {
+  margin-bottom: 32px;
+}
+
+.examples-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #111;
+}
+
+/* Grid layout */
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* Each example */
+.example-card {
+  background: #fafafa;
+  border-radius: 14px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.example-card:hover {
+  transform: translateY(-4px);
+}
+
+.example-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.example-card p {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .example-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .example-card img {
+    height: 180px;
+  }
+}
+
+/* Feedback Section */
+.feedback {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.feedback-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.feedback-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feedback-input,
+.feedback-textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.feedback-textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.feedback-btn {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.feedback-btn:hover {
+  background: #333;
+}

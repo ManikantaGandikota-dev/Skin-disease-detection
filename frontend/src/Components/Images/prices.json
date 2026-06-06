@@ -1,0 +1,67 @@
+
+{
+  "dark spots": [
+    { "name": "caff_dark", "price": 599 ,"season":["rainy","summer" ]},
+    {"name":"bliss_dark", "price": 899, "season":["rainy","winter"] },
+    { "name": "plix", "price": 419, "season":"summer" },
+    { "name": "dot1_dark", "price": 1347, "season":"rainy" },
+    { "name": "mama_dark", "price": 1019, "season":["rainy","summer","winter"] },
+    { "name": "nua", "price": 140, "season":"summer" },
+    { "name": "sirona", "price": 90, "season":"summer" },
+    { "name": "him_dark", "price": 219, "season":["rainy","summer","winter"] },
+    { "name": "derma_dark", "price": 550, "season":["summer","rainy","winter"] },
+    { "name": "Aroma", "price": 150, "season":"summer" },
+    {"name":"biot_dark", "price": 899, "season":"winter" },
+    {"name":"clinique_dark", "price": 899, "season":"winter" },
+    {"name":"loreal_dark", "price": 899, "season":"winter" },
+    {"name":"Natural_darkspots", "price": 899, "season":["summer","rainy", "winter"] }
+
+  ],
+  "acne": [
+    { "name": "mini", "price": 329, "season":"summer"},
+    { "name": "hima", "price": 219, "season":"winter" },
+    { "name": "plix", "price": 419 ,"season":["summer","winter"] },
+    { "name": "dot", "price": 1347 ,"season":["rainy","summer", "winter"] },
+    { "name": "nua", "price": 140 ,"season":["summer","rainy"] },
+    { "name": "sirona", "price": 90 ,"season":["summer","rainy"] },
+    { "name": "hima", "price": 219, "season":"winter" },
+    { "name": "Derma", "price": 550, "season":["winter","summer"] },
+    {"name":"clarina", "price": 899, "season":"rainy" },
+    {"name":"Natural_acne", "price": 899, "season":["summer","rainy", "winter"] }
+  ],
+  "pores": [
+    { "name": "plix", "price": 900 ,"season":["summer","rainy", "winter"] },
+    { "name": "Requil", "price": 1000, "season":["winter"] },
+    { "name": "mini", "price": 600, "season":["winter","rainy"] },
+    { "name": "Agro", "price": 900, "season":["summer","rainy"] },
+    { "name": "dot", "price": 500, "season":["summer","rainy", "winter"] },
+    { "name": "loreal", "price": 400, "season":["summer","rainy"] },
+    { "name": "mars", "price": 249, "season":["summer"] },
+    { "name": "derma", "price": 185, "season":["winter","rainy"] },
+    { "name": "fox", "price": 230, "season":["summer","rainy", "winter"] },
+    {"name":"Natural_pores", "price": 899, "season":["summer","rainy", "winter"] }
+  ],
+  "blackheades": [
+    { "name": "derma_dark", "price": 230 ,"season":["summer","rainy"] },
+    { "name": "caff_dark", "price": 900, "season":["summer","rainy"] },
+    { "name": "requil", "price": 300, "season":[] },
+    { "name": "mini", "price": 240, "season":[] },
+    { "name": "dot1_dark", "price": 900, "season":["summer","rainy"] },
+    { "name": "bliss_dark", "price": 900, "season":["rainy", "winter"] },
+
+    { "name": "mama_dark", "price": 1700, "season":["summer","rainy", "winter"] },
+    { "name": "him_dark", "price": 600, "season":["summer","rainy", "winter"] },
+    { "name": "loreal_drak", "price": 230, "season":[ "winter"] },
+    {"name":"natural_blackheades", "price": 899, "season":["summer","rainy", "winter"] }
+
+  ],
+  "wrinkles": [
+    { "name": "hima", "price": 194, "season":["summer","rainy"] },
+    { "name": "mama", "price": 419, "season":["summer","rainy", "winter"] },
+    { "name": "renee", "price": 1600, "season":[ "winter"] },
+    { "name": "bot", "price": 701, "season":["rainy"] },
+    { "name": "plum", "price": 999, "season":["summer","rainy", "winter"] },
+    { "name": "anti", "price": 260, "season":[ "winter"] },
+    {"name":"natural_wrinkles", "price": 899, "season":["summer","rainy", "winter"] }
+  ]
+}

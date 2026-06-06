@@ -1,0 +1,17 @@
+from tensorflow.keras.models import load_model
+from ultralytics import YOLO
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(BASE_DIR)
+
+CNN_MODEL_PATH = os.path.join(BASE_DIR, "Models", "skin_cnn_model.h5")
+
+cnn_model = load_model(CNN_MODEL_PATH)
+print("CNN model loaded successfully")
+
+
+YOLO_MODEL_PATH = os.path.join(BASE_DIR, "Models", "Skin_Makeup_yolo.pt")
+
+yolo_model = YOLO(YOLO_MODEL_PATH)
+print("YOLO model loaded successfully")
